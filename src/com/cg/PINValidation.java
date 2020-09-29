@@ -9,7 +9,7 @@ public class PINValidation {
 		System.out.println("PIN Validation Program");
 		System.out.println("------------------------");
 		String pinCode;
-		String pinPattern = "^[0-9]{6}$";
+		String pinPattern = "^(!([A-Za-z][^W])*[0-9]{6}";
 		boolean repeat = true;
 		while (repeat) {
 			System.out.println("Select option:\n1. Enter Pin Code to check\n2. exit");
